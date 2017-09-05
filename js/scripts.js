@@ -11,7 +11,7 @@ function setNavbarFixed(win_scrolltop, menu_scrolltop){
 jQuery(document).ready(function($){
 
 
-var link = document.getElementById('email1');
+var link = document.getElementById('email');
 link.onclick = function() {
     this.href = "mailto:lipishah58@gmail.com?subject=";
 	this.href+=getSubject();
