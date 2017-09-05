@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
 
 var link = document.getElementById('email');
 link.onclick = function() {
-    this.href = "mailto:aashay2105@gmail.com?subject=";
+    this.href = "mailto:lipishah58@gmail.com?subject=";
 	this.href+=getSubject();
 	this.href+="&body=";
     this.href += getBody();
